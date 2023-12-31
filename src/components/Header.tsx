@@ -18,6 +18,24 @@ const Header: React.FC = () => {
 
       <div style={{ marginLeft: "auto" }}>
         <a
+          href="https://medium.com/@kabilanMahathevan"
+          style={{ margin: "0 10px 0 0", color: "#096fab" }}
+        >
+          <i className="fab fa-medium"></i>
+        </a>
+        <a
+          href="https://github.com/KabilanMA"
+          style={{ margin: "0 10px 0 0", color: "#096fab" }}
+        >
+          <i className="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kabilan-mahathevan-a862441aa/"
+          style={{ margin: "0 10px 0 0", color: "#096fab" }}
+        >
+          <i className="fab fa-linkedin"></i>
+        </a>
+        <a
           href="https://twitter.com/Kabilan77114589"
           style={{ margin: "0 10px 0 0", color: "#096fab" }}
         >
@@ -28,18 +46,6 @@ const Header: React.FC = () => {
           style={{ margin: "0 10px 0 0", color: "#096fab" }}
         >
           <i className="fab fa-facebook"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/kabilan-mahathevan-a862441aa/"
-          style={{ margin: "0 10px 0 0", color: "#096fab" }}
-        >
-          <i className="fab fa-linkedin"></i>
-        </a>
-        <a
-          href="https://github.com/KabilanMA"
-          style={{ margin: "0 10px 0 0", color: "#096fab" }}
-        >
-          <i className="fab fa-github"></i>
         </a>
       </div>
     </div>
