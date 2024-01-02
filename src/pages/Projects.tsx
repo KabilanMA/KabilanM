@@ -6,7 +6,6 @@ const Projects: React.FC = () => {
       className="container"
       style={{
         boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
-        backgroundColor: "red",
       }}
     >
       <div className="row" style={{ backgroundColor: "#242424" }}>
@@ -315,14 +314,21 @@ const Projects: React.FC = () => {
             additional game modes. Open to contributions, licensed under MIT for
             personal and educational use.
             <br />
-            Technologies Used: Python, Pygame
+            Technologies Used: Python, Pygame, JavaScript
           </p>
           <p>
             <a
               href="https://github.com/KabilanMA/chess-game-ai"
               className="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
             >
-              Link
+              Link 1
+            </a>
+            {"   "}
+            <a
+              href="https://github.com/KabilanMA/chess-game-browser"
+              className="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >
+              Link 2
             </a>
             {"   "}
           </p>
@@ -367,6 +373,89 @@ const Projects: React.FC = () => {
           <p>
             <a
               href="https://hub.docker.com/r/kabilanmahathevan/pintos"
+              className="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >
+              Link
+            </a>
+            {"   "}
+          </p>
+        </div>
+      </div>
+      <hr style={{ color: "green" }}></hr>
+      <div className="row" style={{ backgroundColor: "#242424" }}>
+        <div
+          className="col-md-4"
+          style={{
+            borderBottom: "15px solid #2b3742",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <h5 style={{ textAlign: "center" }}>
+            Health care database Management System
+          </h5>{" "}
+          <span>2021/Jul - 2021/Oct</span>
+        </div>
+        <div
+          className="col-md-8"
+          style={{
+            borderBottom: "15px solid #2b3742",
+            borderLeft: "5px solid #2b3742",
+            padding: "20px 15px 15px 20px",
+          }}
+        >
+          <p style={{ textAlign: "justify" }}>
+            A sample database management system of health care department to
+            streamline the covid vaccination process and to query about hospital
+            facility available as a semester project
+            <br />
+            Technologies Used: PHP, MySQL, JavaScript
+          </p>
+          <p>
+            <a
+              href="https://github.com/KabilanMA/CS2062"
+              className="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >
+              Link
+            </a>
+            {"   "}
+          </p>
+        </div>
+      </div>
+
+      <div className="row" style={{ backgroundColor: "#242424" }}>
+        <div
+          className="col-md-4"
+          style={{
+            borderBottom: "15px solid #2b3742",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <h5 style={{ textAlign: "center" }}>Hotel Room Reservation System</h5>{" "}
+          <span>2022/Apr - 2021/May</span>
+        </div>
+        <div
+          className="col-md-8"
+          style={{
+            borderBottom: "15px solid #2b3742",
+            borderLeft: "5px solid #2b3742",
+            padding: "20px 15px 15px 20px",
+          }}
+        >
+          <p style={{ textAlign: "justify" }}>
+            An online hotel room booking system where customers can rent rooms
+            and owners can advertise their property.
+            <br />
+            Technologies Used: React, NodeJS, MySQL, Heroku
+          </p>
+          <p>
+            <a
+              href="https://github.com/KabilanMA/hotel-management-system"
               className="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
             >
               Link
