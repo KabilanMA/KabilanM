@@ -20,6 +20,47 @@ const Projects: React.FC = () => {
             justifyContent: "center",
           }}
         >
+          <h5 style={{ textAlign: "center" }}>P2P Torrent Client</h5>{" "}
+          <span>2023/Dec - Present</span>
+        </div>
+        <div
+          className="col-md-8"
+          style={{
+            borderBottom: "15px solid #2b3742",
+            borderLeft: "5px solid #2b3742",
+            padding: "20px 15px 15px 20px",
+          }}
+        >
+          <p style={{ textAlign: "justify" }}>
+            A P2P Torrent Client to download files using .torrent file, and work
+            in progress to support magnet links soon. Pre-release is available
+            for simple usage.
+            <br />
+            Technologies Used: Go
+          </p>
+          <p>
+            <a
+              href="https://github.com/KabilanMA/p2p-torrent-client"
+              className="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >
+              Link
+            </a>
+            {"   "}
+          </p>
+        </div>
+      </div>
+
+      <div className="row" style={{ backgroundColor: "#242424" }}>
+        <div
+          className="col-md-4"
+          style={{
+            borderBottom: "15px solid #2b3742",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
           <h5 style={{ textAlign: "center" }}>Workflow Management System</h5>{" "}
           <span>2022/Sep - 2022/December</span>
         </div>
